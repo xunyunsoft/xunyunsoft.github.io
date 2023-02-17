@@ -1,111 +1,12 @@
-hello xunyunsoft
-<body>
-   <div class="f">我的基本信息</div><br />
-   <span class="head">填写您的个人信息</span>
-   <div class="one">
-       <div class="ding">
-       <form action="">
-           真实姓名：<input type="text" style="width: 145px; height: 30px;">
-           <select name="" id="">
-               <option value="">女士</option>
-               <option value="">男士</option>
-           </select><br /><br />
-           电子邮箱：<input type="text" style="width: 200px; height: 30px;"><br /><br />
-           身份证号：<input type="text" style="width: 200px; height: 30px;"><br /><br />
-           出生日期：<select name="" id="sui" >
-                           <option value="">请选择年</option>
-                           <option value="">xx</option>
-                    </select>
-                    <select name="" id="sui">
-                       <option value="">1月</option>
-                       <option value="">xx</option>
-                    </select>
-                    <select name="" id="sui">
-                       <option value="">1日</option>
-                       <option value="">xx</option>
-                    </select><br /><br />
-       </div>
-       <span class="zhong">请填写您的联系地址</span><br />
-       <div class="shen">
-       省份及市县区：<select name="" id="di">
-                       <option value="">请选择省份</option>
-                       <option value="">xx</option>
-                    </select>
-                    <select name="" id="di">
-                       <option value="">请选择市</option>
-                       <option value="">xx</option>
-                    </select>
-                    <select name="" id="di">
-                       <option value="">请选择区</option>
-                       <option value="">xx</option>
-                    </select><br /><br />
-       &emsp;&emsp;详细地址：<input type="text" style="width: 377px; height: 30px;"><br /><br />
-       &emsp;&emsp;邮政编码：<input type="text" style="width: 62px; height: 30px;"><br /><br />
-       </div>
-       <span class="zhong">请填写您的联系信息</span><br />
-       <div class="wei">
-           联系电话：<input type="text" value="区号" style="width: 55px; height: 30px;">
-                    <input type="text" value="电话" style="width: 130px; height: 30px;">
-                    <input type="text" value="分机" style="width: 55px; height: 30px;"><br /><br />
-          *移动电话：<input type="text" value="区号" style="width: 200px; height: 30px;"><br /><br />
-          A、<input type="radio" name="NAME" value="x"> B、<input type=text name="foo" size=20> C、<input type="submit" value="NAME"> D、<input type="image" name="NAME" src="orange diagonal ball.gif">
-<body>
-   <div class="f">我的基本信息</div><br />
-   <span class="head">填写您的个人信息</span>
-   <div class="one">
-       <div class="ding">
-       <form action="">
-           真实姓名：<input type="text" style="width: 145px; height: 30px;">
-           <select name="" id="">
-               <option value="">女士</option>
-               <option value="">男士</option>
-           </select><br /><br />
-           电子邮箱：<input type="text" style="width: 200px; height: 30px;"><br /><br />
-           身份证号：<input type="text" style="width: 200px; height: 30px;"><br /><br />
-           出生日期：<select name="" id="sui" >
-                           <option value="">请选择年</option>
-                           <option value="">xx</option>
-                    </select>
-                    <select name="" id="sui">
-                       <option value="">1月</option>
-                       <option value="">xx</option>
-                    </select>
-                    <select name="" id="sui">
-                       <option value="">1日</option>
-                       <option value="">xx</option>
-                    </select><br /><br />
-       </div>
-       <span class="zhong">请填写您的联系地址</span><br />
-       <div class="shen">
-       省份及市县区：<select name="" id="di">
-                       <option value="">请选择省份</option>
-                       <option value="">xx</option>
-                    </select>
-                    <select name="" id="di">
-                       <option value="">请选择市</option>
-                       <option value="">xx</option>
-                    </select>
-                    <select name="" id="di">
-                       <option value="">请选择区</option>
-                       <option value="">xx</option>
-                    </select><br /><br />
-       &emsp;&emsp;详细地址：<input type="text" style="width: 377px; height: 30px;"><br /><br />
-       &emsp;&emsp;邮政编码：<input type="text" style="width: 62px; height: 30px;"><br /><br />
-       </div>
-       <span class="zhong">请填写您的联系信息</span><br />
-       <div class="wei">
-           联系电话：<input type="text" value="区号" style="width: 55px; height: 30px;">
-                    <input type="text" value="电话" style="width: 130px; height: 30px;">
-                    <input type="text" value="分机" style="width: 55px; height: 30px;"><br /><br />
-          *移动电话：<input type="text" value="区号" style="width: 200px; height: 30px;"><br /><br />
-          <button onclick="alert('注册成功')" style="width: 113px; height: 27px; background-color: #d32402;" >保存基本信息</button>
-       </form>
-   </div>
-   </div>
-</body>
-A、<input type="radio" name="NAME" value="x"> B、<input type=text name="foo" size=20> C、<input type="submit" value="NAME"> D、<input type="image" name="NAME" src="orange diagonal ball.gif">
-          <button onclick="alert('注册成功')" style="width: 113px; height: 27px; background-color: #d32402;" >保存基本信息</button>
-       </form>
-   </div>
-   </div>
-</body>
+<form action="./upload.php" method="POST" enctype="multipart/form-data" >
+          <p>用户名：<input type="text" name="user"></p>
+          <p>年  龄：<input type="text" name="age"></p>
+          <p>性别：
+             <input type="radio" name="gender" value="0">男
+             <input type="radio" name="gender" value="1">女
+             <input type="radio" name="gender" value="2">保密
+          </p>
+          <p>密码：<input type="password" name="password"></p>
+          <p>头像：<input type="file" name="image"></p>
+          <p><input type="submit" value="提交"></p>
+   </form>
